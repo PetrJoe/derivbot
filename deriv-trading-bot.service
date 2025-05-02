@@ -1,0 +1,15 @@
+[Unit]
+Description=Deriv Trading Bot with Django
+After=network.target
+
+[Service]
+User=your_username
+Group=your_group
+WorkingDirectory=/path/to/your/project
+ExecStart=/usr/bin/python3 run.py
+Restart=on-failure
+RestartSec=5s
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

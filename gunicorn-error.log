@@ -1,0 +1,76 @@
+[2025-05-02 20:35:14 +0100] [11707] [INFO] Starting gunicorn 21.2.0
+[2025-05-02 20:35:14 +0100] [11707] [INFO] Listening at: http://0.0.0.0:8000 (11707)
+[2025-05-02 20:35:14 +0100] [11707] [INFO] Using worker: sync
+[2025-05-02 20:35:14 +0100] [11708] [INFO] Booting worker with pid: 11708
+[2025-05-02 20:35:14 +0100] [11709] [INFO] Booting worker with pid: 11709
+[2025-05-02 20:35:14 +0100] [11710] [INFO] Booting worker with pid: 11710
+[2025-05-02 20:35:14 +0100] [11711] [INFO] Booting worker with pid: 11711
+[2025-05-02 20:35:14 +0100] [11712] [INFO] Booting worker with pid: 11712
+[2025-05-02 20:35:14 +0100] [11713] [INFO] Booting worker with pid: 11713
+[2025-05-02 20:35:14 +0100] [11714] [INFO] Booting worker with pid: 11714
+[2025-05-02 20:35:14 +0100] [11715] [INFO] Booting worker with pid: 11715
+[2025-05-02 20:35:14 +0100] [11716] [INFO] Booting worker with pid: 11716
+[2025-05-02 20:36:57 +0100] [11707] [INFO] Handling signal: int
+[2025-05-02 19:36:57 +0000] [11709] [INFO] Worker exiting (pid: 11709)
+[2025-05-02 19:36:57 +0000] [11708] [INFO] Worker exiting (pid: 11708)
+[2025-05-02 19:36:57 +0000] [11714] [INFO] Worker exiting (pid: 11714)
+[2025-05-02 19:36:57 +0000] [11711] [INFO] Worker exiting (pid: 11711)
+[2025-05-02 19:36:57 +0000] [11710] [INFO] Worker exiting (pid: 11710)
+[2025-05-02 19:36:57 +0000] [11713] [INFO] Worker exiting (pid: 11713)
+[2025-05-02 19:36:57 +0000] [11712] [INFO] Worker exiting (pid: 11712)
+[2025-05-02 19:36:57 +0000] [11716] [INFO] Worker exiting (pid: 11716)
+[2025-05-02 19:36:57 +0000] [11715] [INFO] Worker exiting (pid: 11715)
+[2025-05-02 20:36:57 +0100] [11707] [ERROR] Worker (pid:11713) was sent SIGINT!
+[2025-05-02 20:36:57 +0100] [11707] [ERROR] Worker (pid:11711) was sent SIGINT!
+[2025-05-02 20:36:57 +0100] [11707] [ERROR] Worker (pid:11709) was sent SIGINT!
+[2025-05-02 20:36:57 +0100] [11707] [INFO] Shutting down: Master
+[2025-05-02 20:37:00 +0100] [12295] [INFO] Starting gunicorn 21.2.0
+[2025-05-02 20:37:00 +0100] [12295] [INFO] Listening at: http://0.0.0.0:8000 (12295)
+[2025-05-02 20:37:00 +0100] [12295] [INFO] Using worker: sync
+[2025-05-02 20:37:00 +0100] [12296] [INFO] Booting worker with pid: 12296
+[2025-05-02 20:37:00 +0100] [12297] [INFO] Booting worker with pid: 12297
+[2025-05-02 20:37:00 +0100] [12298] [INFO] Booting worker with pid: 12298
+[2025-05-02 20:37:00 +0100] [12299] [INFO] Booting worker with pid: 12299
+[2025-05-02 20:37:00 +0100] [12300] [INFO] Booting worker with pid: 12300
+[2025-05-02 20:37:00 +0100] [12301] [INFO] Booting worker with pid: 12301
+[2025-05-02 20:37:00 +0100] [12302] [INFO] Booting worker with pid: 12302
+[2025-05-02 20:37:00 +0100] [12303] [INFO] Booting worker with pid: 12303
+[2025-05-02 20:37:00 +0100] [12304] [INFO] Booting worker with pid: 12304
+[2025-05-02 20:37:45 +0100] [12295] [INFO] Handling signal: int
+[2025-05-02 19:37:45 +0000] [12296] [INFO] Worker exiting (pid: 12296)
+[2025-05-02 19:37:45 +0000] [12300] [INFO] Worker exiting (pid: 12300)
+[2025-05-02 19:37:45 +0000] [12297] [INFO] Worker exiting (pid: 12297)
+[2025-05-02 19:37:45 +0000] [12301] [INFO] Worker exiting (pid: 12301)
+[2025-05-02 19:37:45 +0000] [12299] [INFO] Worker exiting (pid: 12299)
+[2025-05-02 19:37:45 +0000] [12298] [INFO] Worker exiting (pid: 12298)
+[2025-05-02 19:37:45 +0000] [12304] [INFO] Worker exiting (pid: 12304)
+[2025-05-02 19:37:45 +0000] [12302] [INFO] Worker exiting (pid: 12302)
+[2025-05-02 19:37:45 +0000] [12303] [INFO] Worker exiting (pid: 12303)
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12301) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12304) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12296) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12299) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12297) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [ERROR] Worker (pid:12298) was sent SIGINT!
+[2025-05-02 20:37:45 +0100] [12295] [INFO] Shutting down: Master
+[2025-05-02 20:37:54 +0100] [12607] [INFO] Starting gunicorn 21.2.0
+[2025-05-02 20:37:54 +0100] [12607] [INFO] Listening at: http://0.0.0.0:8000 (12607)
+[2025-05-02 20:37:54 +0100] [12607] [INFO] Using worker: sync
+[2025-05-02 20:37:54 +0100] [12608] [INFO] Booting worker with pid: 12608
+[2025-05-02 20:37:54 +0100] [12609] [INFO] Booting worker with pid: 12609
+[2025-05-02 20:37:54 +0100] [12610] [INFO] Booting worker with pid: 12610
+[2025-05-02 20:37:54 +0100] [12611] [INFO] Booting worker with pid: 12611
+[2025-05-02 20:37:54 +0100] [12612] [INFO] Booting worker with pid: 12612
+[2025-05-02 20:37:54 +0100] [12613] [INFO] Booting worker with pid: 12613
+[2025-05-02 20:37:54 +0100] [12614] [INFO] Booting worker with pid: 12614
+[2025-05-02 20:37:54 +0100] [12615] [INFO] Booting worker with pid: 12615
+[2025-05-02 20:37:54 +0100] [12616] [INFO] Booting worker with pid: 12616
+[2025-05-02 20:42:41 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:42:48 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:42:48 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:42:50 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:42:51 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:42:52 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:43:09 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:43:09 +0100] [12607] [INFO] Handling signal: winch
+[2025-05-02 20:43:09 +0100] [12607] [INFO] Handling signal: winch
