@@ -1,10 +1,10 @@
-FROM python:3.10-slim
+FROM python:3.9-slim
 
 WORKDIR /app
 
 # Install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements-prod.txt .
+RUN pip install --no-cache-dir -r requirements-prod.txt
 
 # Copy project files
 COPY . .
@@ -16,4 +16,4 @@ RUN mkdir -p static
 EXPOSE 8000
 
 # Run the application
-CMD ["python", "run.py"]
+CMD gunicorn deriv.wsgi:application
