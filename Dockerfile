@@ -15,5 +15,6 @@ RUN mkdir -p static
 # Expose port
 EXPOSE 8000
 
+python manage.py run_bot
 # Run the application
 CMD gunicorn deriv.wsgi:application

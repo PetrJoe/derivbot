@@ -2,11 +2,11 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/index.py",
+        "src": "deriv/wsgi.py",
         "use": "@vercel/python",
         "config": { 
           "maxLambdaSize": "15mb", 
-          "runtime": "python3.9",
+          "runtime": "python3.13",
           "buildCommand": "bash build.sh"
         }
       },
@@ -22,16 +22,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "/api/index.py"
+        "dest": "deriv/wsgi.py"
       }
-    ],
-    "excludeFiles": [
-      "venv/**",
-      "node_modules/**",
-      ".git/**",
-      "tests/**",
-      "**/*.pyc",
-      "**/__pycache__/**"
     ]
   }
-  

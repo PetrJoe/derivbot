@@ -21,3 +21,5 @@ find . -type f -name "*.pyc" -delete
 find . -type f -name "*.pyo" -delete
 find . -type d -name "tests" -exec rm -rf {} +
 find . -type d -name "test" -exec rm -rf {} +
+
+gunicorn --config run.py deriv.wsgi:application
