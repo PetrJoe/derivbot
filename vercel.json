@@ -2,11 +2,11 @@
     "version": 2,
     "builds": [
       {
-        "src": "deriv/wsgi.py",
+        "src": "api/index.py",
         "use": "@vercel/python",
         "config": { 
           "maxLambdaSize": "15mb", 
-          "runtime": "python3.13",
+          "runtime": "python3.9",
           "buildCommand": "bash build.sh"
         }
       },
@@ -22,7 +22,8 @@
       },
       {
         "src": "/(.*)",
-        "dest": "deriv/wsgi.py"
+        "dest": "/api/index.py"
       }
     ]
   }
+  
