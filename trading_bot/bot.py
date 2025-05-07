@@ -22,7 +22,8 @@ logger = logging.getLogger('trading_bot')
 # Config
 APP_ID = os.getenv('APP_ID', 'YOUR_APP_ID')
 SYMBOL = os.getenv('SYMBOL', 'R_75')
-GRANULARITY = int(os.getenv('GRANULARITY', 60))
+GRANULARITY = int(os.getenv('GRANULARITY', 300))
+# GRANULARITY = int(os.getenv('GRANULARITY', 60))
 CANDLE_COUNT = int(os.getenv('CANDLE_COUNT', 100))
 CSV_FILE = os.getenv('CSV_FILE', 'data.csv')
 CHART_FILE = os.path.join('static', os.getenv('CHART_FILE', 'chart.png'))
@@ -451,7 +452,7 @@ async def start_auto_analysis(update: Update, context: ContextTypes.DEFAULT_TYPE
         job.schedule_removal()
 
     # Get interval from arguments or use default
-    interval = 60  # Default: 60 minutes
+    interval = 15  # Default: 15 minutes
     if context.args and len(context.args) > 0:
         try:
             interval = int(context.args[0])
